@@ -28,9 +28,14 @@ apt-get install sqlmap
 ## Running the tests
 
 Activate the virtual environment and run sqli.py with python 3
+```
+user$ python 3 $PATH/to/sqli.py
+```
 
 When asked for url input, provide a url with Get parameters
-
+```
+http://www.vulnerableurl.php?id=1
+```
 
 
 ## Author
